@@ -1,0 +1,47 @@
+h1{
+    color: rgb(69, 63, 63);
+    font-size: 56px;
+}
+.container{
+    height: 600px;
+}
+body{
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+}
+.footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.385);
+    text-align: center;
+}
+
+img{
+    width: 200px;
+}
+a{
+    margin-right: 5px;
+    padding: 3px 5px;
+    text-decoration: none;
+    color: blue;
+    letter-spacing: 0.1em;
+    border: 1px solid blue;
+    transition: all 0.5s;
+}
+
+a:hover{
+
+    background-color: blue;
+    color: white;
+}
+.result {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.result p{
+    margin: 4px;
+}
+
+
+
