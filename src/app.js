@@ -6,6 +6,8 @@ const forecast = require("./utils/forecast");
 
 const app = express();
 
+const port = process.env.PORT || 3000;
+
 //define custom paths
 
 //root path for curretn directory
@@ -97,6 +99,6 @@ app.get("*", (req, res) => {
     name: "Tharindu",
   });
 });
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("Server run on port 3000");
 });
